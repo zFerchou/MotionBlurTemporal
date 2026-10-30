@@ -1,0 +1,35 @@
+cat > .gitignore << 'EOF'
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.aps
+*.ipch
+*.VC.db
+*.VC.VC.opendb
+
+# Resultados de compilación (C++)
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.idb
+*.tlog
+*.log
+*.exp
+*.lib
+
+# Resultados de compilación (.NET)
+bin/
+obj/
+publish/
+
+# Binarios: se publican en GitHub Releases, no en el repositorio
+*.dll
+*.exe
+EOF
